@@ -1,0 +1,252 @@
+/* reset */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,select{margin:0;padding:0;}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none;}
+img{border:none; vertical-align:top;}
+table{border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+/* end reset */
+
+/*public*/
+.clear{
+	zoom: 1;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*end public*/
+
+/*index*/
+body{
+    font: 12px/1.5 "Microsoft YaHei","å¾®è½¯é›…é»‘",arial,simsun,"å®‹ä½“";
+}
+.common-header{
+	position: absolute;
+	color: #fff;
+	height: 120px;
+	left: 50%;
+	margin-left: -488px;
+	font-size: 14px;
+}
+.common-header a{
+	color: #fff;
+}
+.logo-white{
+	display: inline-block;
+	float: left;
+	width: 215px;
+	height: 120px;
+	cursor: auto;
+}
+.logo-white img{
+	padding: 35px 80px 35px 0;
+}
+.top-list{
+	float: left;
+}
+.top-list li{
+	float: left;
+	padding:  0 30px;
+	line-height: 120px;
+	background: url(../img/white-border.png) 0 54px no-repeat;
+}
+.top-list .no-border{
+	background: none;
+}
+.top-list a{
+	cursor: auto;
+	background: 
+}
+.wrapper{
+}
+.banner{
+	padding-top: 120px;
+	background: #1e78eb;
+}
+.inner{
+	width: 960px;
+	margin: 0 auto;
+	height: 540px;
+	position: relative;	
+}
+.banner-img{
+	width: 1288px;
+	height: 540px;
+	background: url(../img/header-bg6.jpg);
+}
+.btn-player-video{
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	width: 84px;
+	height: 84px;
+	background: url(../img/play.png);
+	top: 154px;
+	margin-left: 114px;
+}
+.banner-btn{
+	position: absolute;
+	width: 105px;
+	height: 51px;
+	border: 2px white solid; 
+	padding-left: 65px;
+	line-height: 51px;
+	font-size: 20px;
+	bottom: 88px;
+}
+.btn-download{
+	background: #fff url(../img/icon.png) 21px -57px no-repeat;
+	left: 0;
+	color: #267be5;
+}
+.btn-member-center{
+	background: url(../img/icon.png) 20px -163px no-repeat;
+	left: 200px;
+	color: #fff;
+}
+.btn-advertisement{
+	background: url(../img/icon.1.0.1.png) -250px -32px no-repeat;
+	color: #fff;
+	left: 400px;
+}
+.sec{
+	margin: 180px auto 0;
+	width: 1200px;
+	text-align: center;
+}
+.sec h2{
+	font-size: 30px;
+	color: #4a4a4a;
+	font-weight: 100;
+	line-height: 30px;
+}
+.sec p{
+	margin: 22px 0 80px;
+	font-weight: 100;
+	line-height: 20px;
+	font-size: 20px;
+	color: #6f6f6f;
+}
+.big-img-list li{
+	float: left;
+	margin-right: 3px;
+}
+.sec-2 ul{
+	width: 392px;
+	float: left;
+}
+.sec-2 li{
+	float: left;
+	margin: 0 5px 5px 0;
+	overflow: hidden;
+}
+.sec-2 img{
+	width: 100%;
+	height: 100%;
+}
+.img-mxy{
+	width: 145px;
+	height: 145px;
+}
+.img-x{
+	width: 235px;
+	height: 145px;
+}
+.img-y{
+	width: 123px;
+	height: 258px;
+}
+.img-bxy{
+	width: 258px;
+	height: 258px;
+}
+.select-type{
+	margin: 75px auto 0;
+	width: 1020px;
+}
+.select-type li{
+    float: left;
+    margin-right: 10px;
+    width: 243px;
+    height: 243px;
+    border: 1px solid #e4e4e4;
+}
+.select-type a{
+	height: 174px;
+	padding-top: 70px;
+	display: block;
+}
+.ios{
+	background: url(../img/icon.png) 0 0 no-repeat;
+}
+.android{
+		background: url(../img/icon.png) -78px 0px no-repeat;
+}
+.windows{
+	background: url(../img/icon.png) -154px 0 no-repeat;
+}
+.icon{
+	display: block;
+	width: 43px;
+	height: 50px;
+	margin: 0 auto 18px;
+}
+.docum{
+	width: 1020px;
+	margin: 0 auto;
+}
+.sec-4{
+	margin-bottom: 180px;
+}
+.sec-4 li{
+	float: left;
+	border-left: 1px dashed #9d9d9d;
+	text-align: left;
+	padding-left: 20px;
+    padding-right: 60px;
+}
+.sec-4 li a{
+	color: #434343;
+	font-size: 22px;
+	position: relative;
+	display: block;
+}
+.sec-4 li p{
+	margin: 0;
+	color: #8a8a8a;
+    font-size: 14px;
+    line-height: 26px;
+    width: 230px;
+}
+.arrows{
+	position: absolute;
+	right: 0px;
+	top: 7px;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/icon.png) -176px -69px no-repeat; 
+}
+.foot{
+	text-align: center;
+	color: #646464;
+	margin-bottom: 150px;
+}
+.foot ul{
+	width: 410px;
+	margin: 0 auto;
+    text-align: center;
+}
+.foot li{
+	float: left;
+	padding: 0 17px 30px;
+}
+.foot a{
+    font-size: 12px;
+	color: #646464;
+}
+
+/*end index*/
