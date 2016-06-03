@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简单弹窗</title>
+	<style>
+		body{
+			height: 2000px;
+		}
+		.container{
+			width: 250px;
+			height: 250px;
+			border: 1px dotted pink;
+			position: absolute;
+		}
+	</style>
+	<script src = "jquery-1.12.3.min.js"></script>
+	<script>
+	$(function(){
+		$("#btn").click(function(){
+			 var login = $('<div class="container"><br><span>账户：</span><input type="text"><br><br><span>密码：</span><input type="password"><h3>说明介绍</h3><textarea name="ll1" id="da" cols="30" rows="5"></textarea></div>');
+			 $('body').append( login );
+			 login.css('left',($(window).width()-login.outerWidth())/2);
+			 login.css('top',($(window).height()-login.outerHeight())/2);
+		 $(window).on('resize scroll',function(){
+		 	login.css('left',($(window).width()-login.outerWidth())/2);
+			 login.css('top',($(window).height()-login.outerHeight())/2+$(window).scrollTop());
+		 });
+		});
+	});
+	</script>
+</head>
+<body>
+	<input type="button" id="btn" value="注册">
+</body>
+</html>

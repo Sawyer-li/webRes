@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登入表单</title>
+	<script src="../jquery-1.12.3.js" type="text/javascript"></script>
+	<style>
+		form{
+			width: 220px;
+			margin:0 auto;
+		}
+		input{
+			display: block;
+			margin-top: 5px;
+		}
+	</style>
+	<script>
+	$(function(){
+		$('#address').focus(function(){
+			var ar = $(this).val();
+			if( ar == this.defaultValue){
+				$(this).val("");
+			}
+		});
+		$('#address').blur(function(){
+			var ar = $(this).val();
+			if( ar ==""){
+				$(this).val(this.defaultValue);
+			}
+		});
+		$('#password').focus(function(){
+			var ar = $(this).val();
+			if( ar == this.defaultValue){
+				$(this).val("");
+			}
+		});
+		$('#password').blur(function(){
+			var ar = $(this).val();
+			if( ar == ""){
+				$(this).val(this.defaultValue);
+			}
+		});
+	});
+	</script>
+</head>
+<body>
+	<form action="#">
+		<input type="text" id="address" value="请输入邮箱地址" />
+		<input type="text" id="password" value="请输入密码" />
+		<input type="button" value="登入">
+	</form>
+</body>
+</html>
