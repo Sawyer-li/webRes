@@ -16,24 +16,28 @@
 	</style>
 	<script>
 	$(function(){
+		//当获取到焦点时候如果等于默认值则，删除默认值
 		$('#address').focus(function(){
 			var ar = $(this).val();
 			if( ar == this.defaultValue){
 				$(this).val("");
 			}
 		});
+		//当input失去焦点时候还是为空的话，回复默认值
 		$('#address').blur(function(){
 			var ar = $(this).val();
 			if( ar ==""){
 				$(this).val(this.defaultValue);
 			}
 		});
+		//同上
 		$('#password').focus(function(){
 			var ar = $(this).val();
 			if( ar == this.defaultValue){
 				$(this).val("");
 			}
 		});
+		//同上
 		$('#password').blur(function(){
 			var ar = $(this).val();
 			if( ar == ""){
