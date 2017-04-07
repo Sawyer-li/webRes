@@ -1,0 +1,43 @@
+/* reset */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,select{margin:0;padding:0;}
+h2,h3{font-weight: normal;}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none; color: #000;}
+img{border:none; vertical-align:top;}	 	/* 去边框对齐 */
+table{border-collapse:collapse;}	 		/* 表格合并*/
+textarea{ resize:none;overflow:auto;}  	    /* chrome多行文本变大变小*/
+input,textarea{outline:none;}            /* 去除焦点高亮度 */
+body{ font-size:12px; font-family:"微软雅黑";  height: 2000px;}
+/* end reset */ 
+
+.clear{ zoom:1; }
+.clear:after{ content: "";display: block;clear: both; }
+/*header*/
+header{ width: 1366px; height: 86px; position: fixed; z-index: 1;}
+header .logo{ width: 194px; height: 61px; float: left; padding-top: 25px; padding-left: 50px;}
+header .logo a{display: inline-block;}
+header .menu{ float: left; padding-top: 40px; padding-left: 220px; position: relative;}
+header .menu li{width: 83px;  color: #c9cacb; float: left; font-size: 20px; text-align: center;}
+header .menu li:hover{color: #e23257;}
+header .menu .active{ color: #e23257; }
+header .block{height: 3px; width: 55px; background: #d53557; position: absolute; top: 0; left: 232px;}
+header .tel{padding-top: 35px; padding-right: 43px; width: 218px; height: 30px; line-height: 30px; float: right; position: relative; text-indent: 40px;}
+header .tel strong{ background: url(../img/icons.png) no-repeat; width: 30px; height: 30px; display: inline-block; position: absolute; left: 0;}
+header .tel span{ color: #d53557; font-size: 21px; font-family: arial; font-weight: bold; font-size: 26px; letter-spacing: 1px; }
+/*end header*/
+
+/*wrap_banner*/
+.banner{ width: 1366px;  height: 799px; overflow: hidden; position: relative;}
+.wrap_banner{ width: 5464px; position: absolute; left: -0;}
+.wrap_banner .wrap_section{height: 650px; width: 1366px; float: left;}
+.wrap_banner .wrap_section .box_size{ margin: 256px auto 0; width: 358px; text-align: center; }
+.wrap_banner .box_size h2{ color: #ffffff; font-size: 26px; }
+.wrap_banner .box_size h3{ color: #d53557; font-size: 52px; text-decoration: underline;}
+.wrap_banner .box_size p{ color: #bdbebf; line-height: 18px;}
+.wrap_banner .box_size p span{ color: #d53557;}
+.wrap_banner .wp1{ background: url(../img/wallpaper1_1.jpg) no-repeat; }
+.wrap_banner .wp2{ background: url(../img/wallpaper1_2.jpg) no-repeat; }
+.wrap_banner .wp3{ background: url(../img/wallpaper1_3.jpg) no-repeat; }
+.wrap_banner .wp4{ background: url(../img/wallpaper1_4.jpg) no-repeat; }
+/*end wrap_banner*/
